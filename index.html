@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestione Pagamenti</title>
+  <style>
+    :root {
+      --bg: #050816;
+      --accent: #22c55e;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #1d283a 0, #020617 45%, #000 100%);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+    .card {
+      max-width: 480px;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.88));
+      border-radius: 24px;
+      padding: 32px 28px;
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      text-align: center;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.44);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 12px rgba(34, 197, 94, 0.6);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 28px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 24px;
+      border-radius: 999px;
+      border: none;
+      background: radial-gradient(circle at 20% 0%, #bbf7d0, #22c55e 50%, #15803d 100%);
+      color: #022c22;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 10px 28px rgba(34, 197, 94, 0.4);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 32px rgba(34, 197, 94, 0.5);
+    }
+    .hint {
+      margin-top: 20px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .hint code {
+      display: block;
+      margin-top: 8px;
+      padding: 10px 14px;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 12px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      font-size: 13px;
+      text-align: left;
+    }
+    .back {
+      margin-top: 24px;
+      font-size: 13px;
+    }
+    .back a {
+      color: #86efac;
+      text-decoration: none;
+    }
+    .back a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">
+      <span class="badge-dot"></span>
+      Gestione Pagamenti
+    </div>
+    <h1>Benvenuto in Gestione Pagamenti</h1>
+    <p class="subtitle">App per la gestione dei pagamenti. Avvia Streamlit e apri il link sotto.</p>
+    <a href="http://localhost:8502" class="btn" target="_blank" rel="noopener">Apri app Gestione Pagamenti ↗</a>
+    <p class="hint">Se l’app non si apre, avvia nel terminale dalla cartella <code>gestione_pagamenti</code> (porta 8502):</p>
+    <p class="hint"><code>cd gestione_pagamenti<br>python3 -m streamlit run pagamenti.py --server.port 8502</code></p>
+    <p class="back"><a href="../index.html">← Torna alla lista progetti</a></p>
+  </div>
+</body>
+</html>
