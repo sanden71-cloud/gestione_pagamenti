@@ -70,7 +70,7 @@ def show_login():
             st.session_state["username"] = user["username"]
             st.session_state["role"] = user["role"]
             st.success(f"Accesso effettuato come {user['username']} ({user['role']}).")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Utente o password non corretti.")
 
@@ -116,7 +116,7 @@ def show_admin_area():
                 )
                 save_users(users)
                 st.success(f"Utente '{new_username}' creato con ruolo '{new_role}'.")
-                st.experimental_rerun()
+                st.rerun()
 
 
 def show_main_app():
@@ -142,7 +142,7 @@ def show_main_app():
     st.markdown("---")
     if st.button("Esci"):
         st.session_state.clear()
-        st.experimental_rerun()
+        st.rerun()
 
 
 def main():
