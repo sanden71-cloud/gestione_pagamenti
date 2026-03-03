@@ -1,0 +1,82 @@
+{
+  "medici": {
+    "Alessandro Dente": [
+      {
+        "data": "03/03/26",
+        "cliente": "Pico Pallino",
+        "paziente": "Pico Pallino",
+        "valore": 187.98,
+        "percentuale": 25.0,
+        "commissione": 46.995,
+        "mese": "2026-03",
+        "pagato": true,
+        "archiviato": true,
+        "data_pagamento": "2026-03-03",
+        "metodo_pagamento": "Bonifico bancario",
+        "nota_pagamento": "pagato in data 03-03-26"
+      },
+      {
+        "data": "03/03/26",
+        "cliente": "Mario Rossi",
+        "paziente": "Mario Rossi",
+        "valore": 111.0,
+        "percentuale": 25.0,
+        "commissione": 27.75,
+        "mese": "2026-03",
+        "pagato": true,
+        "archiviato": true,
+        "data_pagamento": "2026-03-03",
+        "metodo_pagamento": "Bonifico bancario",
+        "nota_pagamento": "pagato in data 03-03-26"
+      },
+      {
+        "data": "03/03/26",
+        "cliente": "Bianchi Maria",
+        "paziente": "Bianchi Maria",
+        "valore": 298.33,
+        "percentuale": 25.0,
+        "commissione": 74.5825,
+        "mese": "2026-03",
+        "pagato": true,
+        "archiviato": true,
+        "data_pagamento": "2026-03-03",
+        "metodo_pagamento": "Bonifico bancario",
+        "nota_pagamento": "pagato in data 03-03-26"
+      },
+      {
+        "data": "03/03/26",
+        "cliente": "mari rossi",
+        "paziente": "mari rossi",
+        "valore": 554.0,
+        "percentuale": 25.0,
+        "commissione": 138.5,
+        "mese": "2026-03",
+        "pagato": true,
+        "archiviato": true,
+        "data_pagamento": "2026-03-03",
+        "metodo_pagamento": "Bonifico bancario",
+        "nota_pagamento": "pagato in data 03-03-26"
+      }
+    ],
+    "Buda Paola": [
+      {
+        "data": "03/03/26",
+        "cliente": "Rossi Mario",
+        "paziente": "Rossi Mario",
+        "valore": 123.0,
+        "percentuale": 25.0,
+        "commissione": 30.75,
+        "mese": "2026-03",
+        "pagato": true,
+        "archiviato": true,
+        "data_pagamento": "2026-03-03",
+        "metodo_pagamento": "Bonifico bancario",
+        "nota_pagamento": "oggi"
+      }
+    ]
+  },
+  "email_medici": {
+    "Alessandro Dente": "sanden@me.com",
+    "Buda Paola": "buda"
+  }
+}
